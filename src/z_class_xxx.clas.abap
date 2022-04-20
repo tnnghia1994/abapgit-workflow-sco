@@ -1,14 +1,20 @@
-CLASS Z_CLASS_XXX DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class Z_CLASS_XXX definition
+  public
+  final
+  create public .
 
-  PUBLIC SECTION.
+public section.
+
+  methods GET_DATA .
   PROTECTED SECTION.
-  PRIVATE SECTION.
+private section.
 ENDCLASS.
 
 
 
 CLASS Z_CLASS_XXX IMPLEMENTATION.
+
+
+  method GET_DATA.
+  endmethod.
 ENDCLASS.
